@@ -12,7 +12,7 @@ gets the RGB color data from that pixel and "converts" it to the nearest<br>
 color name (either from the WebColor-Standard or the ImageMagick-Standard)<br>
 <br>
 If you want a different pixel to be scanned for the color-data change these lines<br>
-to whatever height/width coordinates you fancy:<br>
+in "webcam_find_videocolor.py" to whatever height/width coordinates you fancy:<br>
 mid_w=int(cap.get(cv.CAP_PROP_FRAME_WIDTH)/2) # get middle of width<br>
 mid_h=int(cap.get(cv.CAP_PROP_FRAME_HEIGHT)/2) # get middle of height<br>
 <br>
